@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="gamewebsitestyles.css" />
+        <title>Uri's game website</title>
+    </head>
+    <body>
+
+        <section>
+        <div class="topbar">
+            <div class="title">Unstable Games Co.</div>
+            <div class="links">
+                <a href="#games">Browser Games</a>
+                <a href="#about">About</a>
+            </div>
+        </div>
+        </section>
+
+        <section>
+        <h2 class="game_title">game 1: flappy bird with aids</h2>
+        <button onclick="play()" class="gamebutton">Play Game</button>
+        <iframe 
+            width="1000" 
+            height="600" 
+            style="display:block; margin:0 auto;" 
+            allowfullscreen 
+            id="gameFrame">
+        </iframe>
+        </section>
+
+        <script>
+            function play() {
+                const iframe = document.getElementById('gameFrame');
+                iframe.src = "dfb/dfb_definitive.html";
+                }
+        </script>
+
+        <footer class="site-footer">
+            <p>Hi! Thanks for visiting. I'm Uri, this is my foray into gamedev.</p>
+            <!--<p>Follow me on x <a href="https://twitter.com/OG_uri_" target="_blank">@OG_uri_</a> for nonsense, vibes, and updates.</p>-->
+            <p>Thanks for playing!</p>
+        </footer>
+
+    </body>
+</html>

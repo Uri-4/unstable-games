@@ -1,0 +1,34 @@
+h1, h2 {
+    text-align: center;
+}
+
+.gamebutton {
+    display: block;
+    margin: 0 auto;
+}
+
+.game_title {
+    font-family: 'Silkscreen', monospace;
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;   /* space below the title */
+    text-align: center;     /* center the title */
+    font-weight: bold;
+    color: #2600ff;
+}
+
+.title {
+    font-family: orbitron, monospace;
+    font-weight: bold;
+}
+
+.links {
+    text-align: center;
+}
+
+body {
+  background-color: #171717; /* dark gray/black background */
+}
+
+
+
+
