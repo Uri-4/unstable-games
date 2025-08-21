@@ -4,7 +4,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="gamewebsitestyles.css" />
-        <title>unstablegames.com</title>
+        <title>UnstableGames.com</title>
     </head>
     <body>
 
@@ -20,7 +20,7 @@
 
         <section>
         <h2 class="game_title">game 1: flappy bird with aids</h2>
-        <button onclick="play()" class="gamebutton">Play Game</button>
+        <button onclick="play(); document.getElementById('gameFrame').scrollIntoView({behavior: 'smooth'})" class="gamebutton">Play Game</button>
         <iframe 
             width="1000" 
             height="600" 
@@ -38,9 +38,9 @@
         </script>
 
         <footer class="site-footer">
-            <p>Hi! Thanks for visiting. I'm Uri, I started coding recently and this is my foray into gamedev.</p>
-            <p>Follow me on x: <a href="https://twitter.com/OG_uri_" target="_blank">@OG_uri_</a> for nonsense, vibes, and updates.</p>
-            <p>Or on <a href="https://github.com/Uri-4" target="_blank">Github</a></p>
+            <p>Hi! Thanks for visiting. I'm Uri, this is my foray into gamedev.</p>
+            <p>Follow me on x: <a href="https://twitter.com" id="about" target="_blank">@{redacted}</a> for nonsense, vibes, and updates.</p>
+            <p>Github: <a href="https://github.com/Uri-4"></a></p>
             <p>Thanks for playing!</p>
         </footer>
 
