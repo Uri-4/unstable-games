@@ -1,4 +1,3 @@
-# diseased flappy bird
-My first step into game development. 
+# unstablegame#1
+This is my first step into game development. 
 There will be more to come. 
-Maybe.
